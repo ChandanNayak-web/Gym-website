@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Kaushan Script", cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url("https://images.unsplash.com/photo-1546483875-ad9014c88eba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop");
+        width: 100%;
+        height: 730px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+      }
+
+      .left {
+        position: absolute;
+        left: 60px;
+        top: 22px;
+        display: inline-block;
+        /* border: 2px solid red; */
+      }
+
+      .left img {
+        height: 61px;
+        width: 115px;
+        filter: invert(99%);
+      }
+
+      .left div {
+        text-align: center;
+        line-height: 22px;
+        font-size: 19px;
+      }
+
+      .mid {
+        display: block;
+        width: 44%;
+        margin: 22px auto;
+        /* border: 2px solid blue; */
+      }
+
+      .right {
+        position: absolute;
+        right: 10px;
+        top: 38px;
+        display: inline-block;
+        /* border: 2px solid green; */
+      }
+
+      .navbar {
+        display: inline-block;
+      }
+
+      .navbar li {
+        display: inline-block;
+        font-size: 25px;
+      }
+
+      .navbar a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 23px;
+      }
+
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline;
+        color: #80808091;
+      }
+
+      .btn {
+        font-family: "Kaushan Script", cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #7878787a;
+      }
+
+      .container {
+        /* border: 2px solid yellow; */
+        margin: 59px 93px;
+        padding: 40px 34px;
+        width: 36%;
+        border-radius: 28px;
+        color: #d25fbe;
+      }
+
+      .form-group input {
+        font-family: "Kaushan Script", cursive;
+        text-align: center;
+        display: block;
+        width: 504px;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 13px auto;
+        font-size: 23px;
+        background-color: #f0f4ff4d;
+        border-radius: 19px;
+        font-weight: bold;
+      }
+
+      .container h1 {
+        text-align: center;
+      }
+
+      .container button {
+        display: block;
+        width: 520px;
+        margin: 28px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img
+          src="https://cdn.pixabay.com/photo/2022/07/17/19/43/man-7328236_960_720.png"
+          alt=""
+        />
+        <div>Chandu Fitness</div>
+      </div>
+      <!-- mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contactus</a></li>
+        </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+        <button class="btn">Call Us</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>JOIN THE BEST GYM BBSR NOW</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Weight" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Email" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Phone No" />
+        </div>
+        <button class="btn">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
